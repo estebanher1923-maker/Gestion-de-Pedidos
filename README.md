@@ -178,6 +178,21 @@ PMA_PORT=8081
 - `POST /api/monitoreo/falla`
 - `POST /api/monitoreo/recuperar`
 
+## Monitoreo y Recuperación
+
+El sistema supervisa:
+
+- disponibilidad de nodos,
+- servicios activos,
+- fallos simulados,
+- recuperación automática.
+
+Endpoints:
+
+GET /api/monitoreo/estado
+POST /api/monitoreo/falla
+POST /api/monitoreo/recuperar
+
 ## Notas de operación
 
 - El frontend se compila dentro de la imagen de NGINX.
