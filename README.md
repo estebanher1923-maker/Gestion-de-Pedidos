@@ -160,6 +160,16 @@ ADMIN_CORREO=admin@gestion-pedidos.local
 ADMIN_CLAVE=Admin123!
 PMA_PORT=8081
 ```
+## Seguridad
+
+El sistema implementa:
+
+- JWT para autenticación
+- Validación de usuarios
+- Variables de entorno
+- Protección de rutas administrativas
+- Manejo de roles
+```
 
 ## Endpoints principales
 
